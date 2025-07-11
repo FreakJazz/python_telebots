@@ -32,4 +32,4 @@ elif resultOption == 3:
     print ("XSaliendo, Saludos..")
     exit()
 else:
-    print ("El número ingresado no es correcto")
+    print ("El número ingresado no es correcto. Elige porfavor las opciones señaladas")
