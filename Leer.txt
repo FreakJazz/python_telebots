@@ -1,0 +1,11 @@
+developers 
+https://developers.facebook.com/
+
+Url para verificar del postman : 
+
+https://www.postman.com/meta/whatsapp-business-platform/request/glfiyeg/send-reply-to-sticker-message-by-id?tab=auth
+
+twiilo 
+
+https://pages.twilio.com/twilio-brand-sales-spa-latam-2?utm_source=google&utm_medium=cpc&utm_term=twilio&utm_campaign=G_S_LATAM_Brand_Twilio_Spanish&cq_plac=&cq_net=g&cq_pos=&cq_med=&cq_plt=gp&gad_source=1&gad_campaignid=14124383694&gbraid=0AAAAADcHgwURen2eGQVVBQhLnfsJOUonY&gclid=CjwKCAjwyb3DBhBlEiwAqZLe5LyfSVi6XxbjAna0FL4exD4OytnnCvX4owikR1J_XH1h4ivSDzdQiRoC07gQAvD_BwE
+
