@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedesk</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Pokedesk</h1>
+    <form method="post">
+        <button type="submit">Mostrar</button>
+    </form>
+
+    <div class="grid">
+        {% for p in pokemons %}
+        <div class="card">
+            <img src="{{ p.image }}" alt="{{ p.name }}">
+            <h2>{{ p.name }}</h2>
+            <ul>
+                <li><strong>ID:</strong> {{ p.id }}</li>
+                <li><strong>Tipo:</strong> {{ p.types }}</li>
+                <li><strong>Altura:</strong> {{ p.height }}</li>
+                <li><strong>Peso:</strong> {{ p.weight }}</li>
+                <li><strong>Experiencia:</strong> {{ p.base_experience }}</li>
+                <li><strong>Habilidad(es):</strong> {{ p.abilities }}</li>
+                <li><strong>HP:</strong> {{ p.hp }}</li>
+                <li><strong>Ataque:</strong> {{ p.attack }}</li>
+                <li><strong>Defensa:</strong> {{ p.defense }}</li>
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

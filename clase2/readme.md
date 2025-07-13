@@ -8,6 +8,12 @@ Aplicar estructuras de datos y Programación Orientada a Objetos para crear una 
 ## 📋 Instrucciones:
 
 1. Usa el repositorio que ya forkeaste.
+
+2. Crea un archivo `nombre_apellido.py` en la carpeta `clase_2`.
+3. Resuelve los ejercicios.
+4. Haz commit, push y un Pull Request con el título:\
+   **"Clase 2 - TuNombre TuApellido"**
+
 2. Crea un archivo nombre_apellido.py en la carpeta clase_2.
 3. Resuelve los ejercicios.
 4. Haz commit, push y un Pull Request con el título:\
@@ -46,6 +52,11 @@ Crea:
 ---
 
 ## 🧪 Ejercicio 3: Trivia con POO
+
+1. Crea una clase `Pregunta` con `enunciado`, `opciones` y `respuesta`.
+numero = int(input("Ingrese número: "))
+2. Muestra la pregunta y permite al usuario responder.
+3. Indica si la respuesta fue correcta o no.
 
 1. Crea una clase Pregunta con enunciado, opciones y respuesta.
 numero = int(input("Ingrese número: "))

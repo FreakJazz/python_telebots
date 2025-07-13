@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chistes Flask</title>
+    <script>
+        async function obtenerChiste() {
+            const respuesta = await fetch("/joke");
+            const data = await respuesta.json();
+            document.getElementById("chiste").value = data.joke;
+        }
+    </script>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+    <h1>Bienvenido</h1>
+    <button onclick="obtenerChiste()">Mostrar un chiste</button>
+    <div style="margin-top: 20px;">
+        <textarea id="chiste" rows="4" cols="50" readonly style="resize: none;"></textarea>
+    </div>
+</body>
+</html>
