@@ -22,7 +22,7 @@ for i in range(1, n + 1):
 
 #Ejercicio 2:Menú interactivo
 
-import datetime
+import datetime 
 def menú():
     print("Bienvenido a este menú interactivo")
     print("1. Mostrar una frase motivacional")
