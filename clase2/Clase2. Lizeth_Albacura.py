@@ -152,9 +152,5 @@ if numero in preguntas:
     respuesta = input("Tu respuesta (número): ")
     preguntas[numero].verificar_respuesta(respuesta)
 else:
-    print("Número de pregunta no válido.")
-
-
-
-
-
+    print("Número de pregunta no válido")
+    
