@@ -147,7 +147,7 @@
 
 1. Crear una carpeta con tu nombre completo en la carpeta `proyecto/`.
 2. Agregar código fuente, plantilla HTML (si aplica), `.env.example`, base de datos y `README.md`.
-3. Hacer fork del repositorio oficial.
+3. Hacer fork del rep ositorio oficial.
 4. Subir tus cambios (commit & push).
 5. Crear Pull Request con el título:
    > Proyecto - TuNombre TuApellido
